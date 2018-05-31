@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [myproject]">
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test name="mytest(failed)">
+    <classes>
+      <class name="com.selenium_project.my_project.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="searchFlight"/>
+        </methods>
+      </class> <!-- com.selenium_project.my_project.NewTest -->
+    </classes>
+  </test> <!-- mytest(failed) -->
+</suite> <!-- Failed suite [myproject] -->

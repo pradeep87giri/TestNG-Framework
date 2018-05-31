@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="myproject">
+	<listeners>
+		<listener class-name="listeners.CustomListeners"></listener>
+	</listeners>
+	<test name="mytest">
+		<classes>
+			<class name="com.selenium_project.my_project.NewTest"></class>
+		</classes>
+	</test>
+</suite>
